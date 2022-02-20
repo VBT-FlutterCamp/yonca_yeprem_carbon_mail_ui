@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
 import '/core/constants/app_strings.dart';
-import '/feature/view/home/homepage.dart';
+import '../home/view/homepage.dart';
 
 
 class WelcomePage extends StatelessWidget {

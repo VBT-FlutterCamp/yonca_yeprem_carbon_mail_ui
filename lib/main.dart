@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'feature/view/home/view/http_homepage.dart';
 import 'feature/view/welcome/welcome.dart';
 
 void main() => runApp(const MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: const Color(0xff293855),
       ),
-      home: const WelcomePage(),
+      home: const HttpHomePage(),
     );
   }
 }

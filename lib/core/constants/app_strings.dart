@@ -7,4 +7,7 @@ class AppStrings {
   final String homeApptitle = "Keep up the carbon-free work! 🎉";
   final String homeSubText1 = "Subscriptions (18)";
   final String homeSubText2 = "25% CLEANED";
+
+  final String httpHomeApptitle = "Let's Explore Todos All Around The World 🎉";
+  final String httpHomeAppTodoLenght = "Total Todo ";
 }

@@ -18,7 +18,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: context.appTheme.primaryColor,
       bottomNavigationBar:
-          BottomNavigationBar(items: BottomNavigatorListModel().toWidgets()),
+          BottomNavigationBar(
+            items: BottomNavigatorListModel().toWidgets()),
       body: CustomScrollView(
         slivers: [
           _buildSliverAppBar(context),

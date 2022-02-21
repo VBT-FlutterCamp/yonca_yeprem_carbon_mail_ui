@@ -13,7 +13,7 @@ class BottomNavigatorListModel {
     _items = [
       BottomNavigationModel(Icons.folder, ''),
       BottomNavigationModel(Icons.settings, ''),
-      BottomNavigationModel(Icons.account_balance_rounded, ''),
+      BottomNavigationModel(Icons.show_chart_rounded, ''),
     ];
   }
 

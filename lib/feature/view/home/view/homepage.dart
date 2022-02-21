@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
+
 import '/core/constants/app_strings.dart';
+import '../model/bottom_navigation_model.dart';
 import '../model/home_items.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,6 +17,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: context.appTheme.primaryColor,
+      bottomNavigationBar:
+          BottomNavigationBar(items: BottomNavigatorListModel().toWidgets()),
       body: CustomScrollView(
         slivers: [
           _buildSliverAppBar(context),
